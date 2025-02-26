@@ -1,0 +1,11 @@
+/.vs/
+/Debug/
+/Release/
+/ipch/
+/Client/Debug/
+/Client/Release/
+/Tool/Debug/
+/Tool/Release/
+/Data/
+/Image/
+/Sound/

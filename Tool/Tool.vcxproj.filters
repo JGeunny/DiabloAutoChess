@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{f1947bd0-fa1f-41cf-b87a-6c48aecb05a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{6fda9821-1f8f-471a-a50e-f173dd8ce307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.FarmeWnd">
+      <UniqueIdentifier>{862f2566-802d-4077-94db-bfdaa6ad20f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{820d72e1-68c1-49ac-baf2-4774a7557565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{8d3a2465-cf56-43ee-bb4d-958869de0720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{1ff97eee-3352-4602-8152-98370f22d7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility">
+      <UniqueIdentifier>{6c584a3b-6a24-4597-a300-46801af0a489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{5ec8152a-6968-41f8-8d56-882287c8b3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Etc">
+      <UniqueIdentifier>{b09816c2-a0ae-4f97-9498-528087cd8c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\00.Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{cead9a3b-a551-4d11-844c-7a5f5741fb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.TimeMgr">
+      <UniqueIdentifier>{0b11b0d3-3db9-4c81-98f2-743c2073b11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.DeviceMgr">
+      <UniqueIdentifier>{e14719ca-185b-4a5b-8714-ea517a03af1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.TextureMgr">
+      <UniqueIdentifier>{d496be0d-96ef-441d-be82-3d00e7c5241b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\03.KeyMgr">
+      <UniqueIdentifier>{ba8fa1dd-4203-4c89-886c-3b14383e7ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\05.ObjMgr">
+      <UniqueIdentifier>{222469eb-5f87-432f-a4de-b173a903a4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\06.ScrollMgr">
+      <UniqueIdentifier>{7225c689-1cc5-4896-9e9f-4f943e22e214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\04.SoundMgr">
+      <UniqueIdentifier>{f4cdcf1c-4490-4aac-b459-9e810120bf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\07.EditMgr">
+      <UniqueIdentifier>{3a5e85ea-4310-43dd-9f73-73f4b2470bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core">
+      <UniqueIdentifier>{1b2a9d39-d5a3-4e0c-8278-28937556ccdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.Terrain">
+      <UniqueIdentifier>{66b6b625-961f-4278-a85a-9023738decb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\00.Observer">
+      <UniqueIdentifier>{e03321ca-304b-4ae2-8a1d-8d963dc76c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage">
+      <UniqueIdentifier>{e0873c8c-2852-44be-a125-7843ade4d5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.Terrain\00.Tile">
+      <UniqueIdentifier>{8643f743-ea7d-417d-b9a2-bf920f5c1472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.TextureMgr\00.Texture">
+      <UniqueIdentifier>{ace4fce4-2b59-4d83-af0b-f75832506b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{0e58c01b-baac-4af1-8e68-c6051ee58846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{d224249b-e4d3-48ff-bf59-b0e2109d5219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.MiniView">
+      <UniqueIdentifier>{3fbcb0b3-676e-4b18-8f3d-63f0c1d3c371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\01.ObjView">
+      <UniqueIdentifier>{0fdfae02-eeb3-4d52-a3fb-780836390e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\02.ObjFormView">
+      <UniqueIdentifier>{959c9a73-8831-4960-8d86-121d716163ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\03.EditFormView">
+      <UniqueIdentifier>{8ad93f28-28a5-4621-8dac-bcec21c2066e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MapTool">
+      <UniqueIdentifier>{6e78add6-9c2d-4f11-9b9b-34b65548f317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.ObjTool">
+      <UniqueIdentifier>{46f33990-3a16-49c7-8413-6dac71bb88e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.MixTool">
+      <UniqueIdentifier>{a86618b5-cb3b-4e6d-bd5c-f8d1d6262697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.VirtualObject">
+      <UniqueIdentifier>{c7a8a015-51a2-439b-a77d-4759dce3451b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\00.Interface">
+      <UniqueIdentifier>{80a26cca-4dc7-4872-9d3b-cad94e2639c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement">
+      <UniqueIdentifier>{36a25e4d-5fb3-4ffc-b56a-8cf291019b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\00.Interface\00.Unit">
+      <UniqueIdentifier>{bdfa4c88-1fcb-4b57-b380-cbb560a87c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit">
+      <UniqueIdentifier>{f80f2916-a607-4288-8a84-b5119c0df935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\00.Amazon">
+      <UniqueIdentifier>{1aa0caf3-ec64-4717-b554-97486ae5de33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\01.Duriel">
+      <UniqueIdentifier>{32e1228d-b71a-4b94-af46-de7ddb28cd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\02.Bavarian">
+      <UniqueIdentifier>{1279b430-25b3-434f-9893-d167316ededc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\03.Andariel">
+      <UniqueIdentifier>{22b7ce44-2d7f-41b2-803c-aea1c15ec6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\04.Dia">
+      <UniqueIdentifier>{e8a06339-2675-4713-8a52-056166350588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\05.Izual">
+      <UniqueIdentifier>{422ff7a8-ff77-4f10-9646-bb4b254b0e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\06.Barlog">
+      <UniqueIdentifier>{aaa47125-56fa-4626-9406-2c27a705fe61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\00.Astar">
+      <UniqueIdentifier>{9f0f63b2-469d-4191-9375-4850fd6b9286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\08.ControlMgr">
+      <UniqueIdentifier>{1385d486-a8f6-4ac0-9d5c-73073134633c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\09.ArrangementMgr">
+      <UniqueIdentifier>{6dede8f6-f1cd-4262-af97-cb77579f204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.UI">
+      <UniqueIdentifier>{8ab4580d-b800-4db1-8f71-99932d3022f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.UI\00.Mouse">
+      <UniqueIdentifier>{2cb5a1cf-8dd1-42b7-b060-07800ad92edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\00.Interface\01.Mouse">
+      <UniqueIdentifier>{4774f4a2-3e3e-403c-b9fa-b613bda00da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse">
+      <UniqueIdentifier>{6b1804f5-366d-4f55-96aa-0a9c9adb56f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse\00.Base">
+      <UniqueIdentifier>{a76676f3-6c6d-4f52-a522-76db0e10acc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\00.Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.FarmeWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\DeviceMgr.h">
+      <Filter>97.Manager\01.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\KeyMgr.h">
+      <Filter>97.Manager\03.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\MultiTexture.h">
+      <Filter>97.Manager\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\SingleTexture.h">
+      <Filter>97.Manager\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\TextureMgr.h">
+      <Filter>97.Manager\02.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\ObjMgr.h">
+      <Filter>97.Manager\05.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\ScrollMgr.h">
+      <Filter>97.Manager\06.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\GameImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\GameObject.h">
+      <Filter>05.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\Observer.h">
+      <Filter>05.GameObject\99.Core\00.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\Terrain.h">
+      <Filter>05.GameObject\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\Tile.h">
+      <Filter>05.GameObject\02.Terrain\00.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\TimeMgr.h">
+      <Filter>97.Manager\00.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\Texture.h">
+      <Filter>97.Manager\02.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMgr.h">
+      <Filter>97.Manager\07.EditMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>03.View\00.MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjView.h">
+      <Filter>03.View\01.ObjView</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFormView.h">
+      <Filter>03.View\02.ObjFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="EditFormView.h">
+      <Filter>03.View\03.EditFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTool.h">
+      <Filter>04.Dialog\01.ObjTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MixTool.h">
+      <Filter>04.Dialog\02.MixTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\UnitImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\00.Interface\00.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\UnitImageImp.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\AmazonImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\00.Amazon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\DurielImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\01.Duriel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\BavarianImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\02.Bavarian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\AndarielImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\03.Andariel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\DiaImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\04.Dia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\IzualImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\05.Izual</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\BarlogImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\06.Barlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\VirtualObject.h">
+      <Filter>05.GameObject\00.VirtualObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Utility\Astar.h">
+      <Filter>98.Utility\00.Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\ControlMgr.h">
+      <Filter>97.Manager\08.ControlMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Manager\ArrangementMgr.h">
+      <Filter>97.Manager\09.ArrangementMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameObject\Mouse.h">
+      <Filter>05.GameObject\01.UI\00.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\MouseImage.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\00.Interface\01.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\MouseImageImp.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Core\BaseMouseImageImp.h">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse\00.Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.FarmeWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\DeviceMgr.cpp">
+      <Filter>97.Manager\01.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\KeyMgr.cpp">
+      <Filter>97.Manager\03.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\MultiTexture.cpp">
+      <Filter>97.Manager\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\SingleTexture.cpp">
+      <Filter>97.Manager\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\TextureMgr.cpp">
+      <Filter>97.Manager\02.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\ObjMgr.cpp">
+      <Filter>97.Manager\05.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\ScrollMgr.cpp">
+      <Filter>97.Manager\06.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\GameImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\GameObject.cpp">
+      <Filter>05.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\Observer.cpp">
+      <Filter>05.GameObject\99.Core\00.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\Terrain.cpp">
+      <Filter>05.GameObject\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\Tile.cpp">
+      <Filter>05.GameObject\02.Terrain\00.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\TimeMgr.cpp">
+      <Filter>97.Manager\00.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\Texture.cpp">
+      <Filter>97.Manager\02.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMgr.cpp">
+      <Filter>97.Manager\07.EditMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>03.View\00.MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjView.cpp">
+      <Filter>03.View\01.ObjView</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFormView.cpp">
+      <Filter>03.View\02.ObjFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="EditFormView.cpp">
+      <Filter>03.View\03.EditFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\00.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTool.cpp">
+      <Filter>04.Dialog\01.ObjTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MixTool.cpp">
+      <Filter>04.Dialog\02.MixTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\UnitImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\00.Interface\00.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\UnitImageImp.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\AmazonImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\00.Amazon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\DurielImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\01.Duriel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\BavarianImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\02.Bavarian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\AndarielImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\03.Andariel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\DiaImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\04.Dia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\IzualImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\05.Izual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\BarlogImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\00.Unit\06.Barlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\VirtualObject.cpp">
+      <Filter>05.GameObject\00.VirtualObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Utility\Astar.cpp">
+      <Filter>98.Utility\00.Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\ControlMgr.cpp">
+      <Filter>97.Manager\08.ControlMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Manager\ArrangementMgr.cpp">
+      <Filter>97.Manager\09.ArrangementMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\GameObject\Mouse.cpp">
+      <Filter>05.GameObject\01.UI\00.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\MouseImage.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\00.Interface\01.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\MouseImageImp.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Core\BaseMouseImageImp.cpp">
+      <Filter>05.GameObject\99.Core\01.GameImage\01.Implement\01.Mouse\00.Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default\00.Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default\00.Etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
